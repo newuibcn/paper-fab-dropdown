@@ -1,14 +1,15 @@
 {
-  "name": "paper-fab-transitions",
-  "version": "0.1.0",
-  "homepage": "https://github.com/GabiAxel/paper-fab-transitions",
+  "name": "paper-fab-dropdown",
+  "version": "0.1.1",
+  "homepage": "https://github.com/bmccoy11/paper-fab-dropdown",
   "authors": [
-    "Gabriel Axel"
+    "Gabriel Axel", "Brendan McCoy"
   ],
-  "main": "paper-fab-transitions.html",
+  "main": "paper-fab-dropdown.html",
   "description": "Polymer components for adding morphing and speed dial transitions to floating action buttons",
   "keywords": [
     "web-components",
+    "iron-dropdown",
     "polymer",
     "fab",
     "floating action button",
@@ -18,10 +19,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/GabiAxel/paper-fab-transitions.git"
+    "url": "git://github.com/bmccoy11/paper-fab-dropdown.git"
   },
   "dependencies": {
-    "polymer": "^1.1.0",
+    "polymer": "^1.2.0",
     "iron-dropdown": "PolymerElements/iron-dropdown#^1.0.0",
     "neon-animation": "PolymerElements/neon-animation#^1.0.0"
   },
