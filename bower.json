@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "homepage": "https://github.com/bmccoy11/paper-fab-dropdown",
   "authors": [
-    "Gabriel Axel", "Brendan McCoy"
+    "Gabriel Axel"
   ],
   "main": "paper-fab-dropdown.html",
   "description": "Polymer components for adding morphing and speed dial transitions to floating action buttons",
@@ -41,4 +41,10 @@
     "paper-card": "PolymerElements/paper-card#^1.0.0",
     "web-component-tester": "*"
   }
+},
+  "ignore": [
+    "**/.*",
+    "bower_components"
+]
 }
+
