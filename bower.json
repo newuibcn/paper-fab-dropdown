@@ -40,11 +40,9 @@
     "paper-button": "PolymerElements/paper-button#^1.0.0",
     "paper-card": "PolymerElements/paper-card#^1.0.0",
     "web-component-tester": "*"
-  }
-},
-  "ignore": [
-    "**/.*",
-    "bower_components"
-]
+  },
+    "ignore": [
+      "**/.*",
+      "bower_components"
+  ]
 }
-
