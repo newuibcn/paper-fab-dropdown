@@ -1,12 +1,14 @@
-paper-fab-transitions
+paper-fab-dropdown
 =====================
+(forked from GabiAxel/paper-fab-transitions, which is unmaintained)
+
 
 Polymer elements for adding morphing and speed dial transitions to floating
 action buttons as defined by Material Design specifications.
 
 ## Install
 ```
-bower install paper-fab-transitions --save
+bower install paper-fab-dropdown --save
 ```
 
 ## Usage
@@ -16,7 +18,7 @@ bower install paper-fab-transitions --save
 Add morphing transition from a fab with the class `dropdown-trigger` to an element with the class `dropdown-content`:
 
 ```html
-<link rel="import" href="bower_components/paper-fab-transitions/paper-fab-morph.html">
+<link rel="import" href="bower_components/paper-fab-dropdown/paper-fab-morph.html">
 
 <paper-fab-morph>
   <paper-fab icon="menu" class="dropdown-trigger">
@@ -34,7 +36,7 @@ Add morphing transition from a fab with the class `dropdown-trigger` to an eleme
 When tapping a fab with the class `dropdown-trigger`, open a speed dial menu with the class `dropdown-content`:
 
 ```html
-<link rel="import" href="bower_components/paper-fab-transitions/paper-fab-speed-dial.html">
+<link rel="import" href="bower_components/paper-fab-dropdown/paper-fab-speed-dial.html">
 
 <paper-fab-speed-dial>
   <paper-fab icon="add" class="dropdown-trigger"></paper-fab>
