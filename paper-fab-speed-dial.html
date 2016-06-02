@@ -152,6 +152,14 @@ Custom property | Description | Default
     _updateDropdown: function(direction, offset) {
       var d = this.$.dropdown;
       switch(direction) {
+      case 'top-left':
+        d.verticalAlign = 'bottom';
+        d.horizontalAlign = 'right';
+        d.horizontalOffset = 0;
+        d.verticalOffset = offset;
+        d.classList.add('vertical');
+        d.classList.remove('horizontal');
+        break;
       case 'bottom':
         d.verticalAlign = 'top';
         d.horizontalOffset = 0;
@@ -181,7 +189,7 @@ Custom property | Description | Default
         d.classList.remove('vertical');
         break;
       default:
-        throw 'Invalid direction. Must be one of [top, bottom, left, right].';
+        throw 'Invalid direction. Must be one of [top, top-left, bottom, left, right].';
       }
     }
   });
