@@ -1,9 +1,9 @@
 {
   "name": "paper-fab-dropdown",
-  "version": "0.1.4",
-  "homepage": "https://github.com/bmccoy11/paper-fab-dropdown",
+  "version": "0.1.5",
+  "homepage": "https://github.com/newuibcn/paper-fab-dropdown",
   "authors": [
-    "Gabriel Axel"
+    "newUIBCN S.L."
   ],
   "main": "paper-fab-dropdown.html",
   "description": "Polymer components for adding morphing and speed dial transitions to floating action buttons",
@@ -19,7 +19,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/bmccoy11/paper-fab-dropdown.git"
+    "url": "git://github.com/newuibcn/paper-fab-dropdown.git"
   },
   "dependencies": {
     "polymer": "^1.2.0",
